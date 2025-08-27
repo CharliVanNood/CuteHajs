@@ -1,0 +1,4 @@
+matplotlib
+CurrencyConverter==0.18.9
+requests
+BeautifulSoup
