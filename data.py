@@ -10,7 +10,7 @@ def convertCurrency(price, currency_in, currency_out):
     elif currency_in == "Denmark": currency_in = "DKK"
     elif currency_in == "Switzerland": currency_in = "CHF"
     else: return "UNKNOWN"
-    return converter.convert(price, currency_in, currency_out)
+    return round(converter.convert(price, currency_in, currency_out), 2)
 
 def show(country, currency, price_full, price_decimal):
     stringResult = ""
