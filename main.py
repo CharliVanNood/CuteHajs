@@ -12,7 +12,11 @@ country_codes = {
 
 print("Getting Data")
 
-stringResult = "| Country | Price Local | Price Euro |  \n| ------- | ------- | ------- |  \n"
+mdStart = "# Hey hey, we track haj prices  \nBelieve it or not, BLÅHAJ pricing is really not as static as it may seem!  \n"
+mdStart += "So like it's only logical if we tracked them, imagine overpaying for your haj collection!  \n"
+mdStart += "Here is all the data we collect:  \n"
+
+stringResult = mdStart + "| Country | Price Local | Price Euro |  \n| ------- | ------- | ------- |  \n"
 for country in country_codes:
     response = request(f"https://www.ikea.com/{country_codes[country][0]}/p/{country_codes[country][1]}/")
     (currency, price_full, price_decimal) = getData(response)

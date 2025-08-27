@@ -1,3 +1,7 @@
+# Hey hey, we track haj prices  
+Believe it or not, BLÅHAJ pricing is really not as static as it may seem!  
+So like it's only logical if we tracked them, imagine overpaying for your haj collection!  
+Here is all the data we collect:  
 | Country | Price Local | Price Euro |  
 | ------- | ------- | ------- |  
 Netherlands:|        € 27.99     |(€ 27.99)  
