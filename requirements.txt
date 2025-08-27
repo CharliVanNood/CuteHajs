@@ -1,4 +1,4 @@
 matplotlib
 CurrencyConverter
 requests
-BeautifulSoup
+beautifulsoup4
