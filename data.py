@@ -18,13 +18,13 @@ def show(country, currency, price_full, price_decimal):
 
     if currency == "€":
         if price_decimal and currency:
-            stringResult += f"{country}:{spaces}{currency} {price_full}.{price_decimal}     (€ {price_full}.{price_decimal})"
+            stringResult += f"{country}:|{spaces}{currency} {price_full}.{price_decimal}     |(€ {price_full}.{price_decimal})"
         elif currency:
-            stringResult += f"{country}:{spaces}{currency} {price_full}.00     (€ {price_full}.00)"
+            stringResult += f"{country}:|{spaces}{currency} {price_full}.00     |(€ {price_full}.00)"
         elif price_decimal:
-            stringResult += f"{country}: {spaces}{price_full}.{price_decimal}     (€ {price_full}.{price_decimal})"
+            stringResult += f"{country}:| {spaces}{price_full}.{price_decimal}     |(€ {price_full}.{price_decimal})"
         else:
-            stringResult += f"{country}: {spaces}{price_full}     (€ {price_full})"
+            stringResult += f"{country}:| {spaces}{price_full}     |(€ {price_full})"
     else:
         if price_decimal:
             converted = convertCurrency(float(price_full + "." + price_decimal), country, 'EUR')
@@ -32,12 +32,12 @@ def show(country, currency, price_full, price_decimal):
             converted = convertCurrency(float(price_full), country, 'EUR')
 
         if price_decimal and currency:
-            stringResult += f"{country}:{spaces}{currency} {price_full}.{price_decimal}     (€ {converted})"
+            stringResult += f"{country}:|{spaces}{currency} {price_full}.{price_decimal}     |(€ {converted})"
         elif currency:
-            stringResult += f"{country}: {spaces}  {price_full}{currency}     (€ {converted})"
+            stringResult += f"{country}:| {spaces}  {price_full}{currency}     |(€ {converted})"
         elif price_decimal:
-            stringResult += f"{country}: {spaces}{price_full}.{price_decimal}     (€ {converted})"
+            stringResult += f"{country}:| {spaces}{price_full}.{price_decimal}     |(€ {converted})"
         else:
-            stringResult += f"{country}: {spaces}{price_full}       (€ {converted})"
-            
+            stringResult += f"{country}:| {spaces}{price_full}       |(€ {converted})"
+
     return stringResult
