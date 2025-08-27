@@ -1,4 +1,5 @@
 from currency_converter import CurrencyConverter
+import time
 
 converter = CurrencyConverter()
 
@@ -16,20 +17,27 @@ def show(country, currency, price_full, price_decimal):
     stringResult = ""
     spaces = " " * (20 - len(country) - len(currency))
 
+    price = ""
+
     if currency == "€":
         if price_decimal and currency:
             stringResult += f"{country}:|{spaces}{currency} {price_full}.{price_decimal}     |(€ {price_full}.{price_decimal})"
+            price = f"{price_full}.{price_decimal}"
         elif currency:
             stringResult += f"{country}:|{spaces}{currency} {price_full}.00     |(€ {price_full}.00)"
+            price = f"{price_full}.00"
         elif price_decimal:
             stringResult += f"{country}:| {spaces}{price_full}.{price_decimal}     |(€ {price_full}.{price_decimal})"
+            price = f"{price_full}.{price_decimal}"
         else:
             stringResult += f"{country}:| {spaces}{price_full}     |(€ {price_full})"
+            price = f"{price_full}.00"
     else:
         if price_decimal:
             converted = convertCurrency(float(price_full + "." + price_decimal), country, 'EUR')
         else:
             converted = convertCurrency(float(price_full), country, 'EUR')
+        price = f"{converted}"
 
         if price_decimal and currency:
             stringResult += f"{country}:|{spaces}{currency} {price_full}.{price_decimal}     |(€ {converted})"
@@ -39,5 +47,8 @@ def show(country, currency, price_full, price_decimal):
             stringResult += f"{country}:| {spaces}{price_full}.{price_decimal}     |(€ {converted})"
         else:
             stringResult += f"{country}:| {spaces}{price_full}       |(€ {converted})"
+    
+    with open(f"histories/{country}", "a") as f:
+        f.write(price + "x" + str(time.time()) + "\n")
 
-    return stringResult
+    return (stringResult, price)

@@ -1,7 +1,6 @@
 from request import request, getData
 from data import show
 
-blahaj_id = "30373588"
 country_codes = {
     "Netherlands": ["nl/nl", 30373588], "Czechia": ["cz/cs", 30373588], "Germany": ["de/de", 30373588], 
     "Belgium": ["be/nl", 30373588], "France": ["fr/fr", 30373588], "Spain": ["es/en", 30373588], 
@@ -21,9 +20,11 @@ for country in country_codes:
     try:
         response = request(f"https://www.ikea.com/{country_codes[country][0]}/p/{country_codes[country][1]}/")
         (currency, price_full, price_decimal) = getData(response)
-        stringResult += show(country, currency, price_full, price_decimal) + "  \n"
-    except:
-        stringResult += f"An error occurred checking for {country}"
+        (stringResultOut, price) = show(country, currency, price_full, price_decimal)
+        stringResult += stringResultOut + "  \n"
+    except Exception as e:
+        print(e)
+        stringResult += f"| An error occurred checking for {country} | _ | _ |  \n"
 print(stringResult)
 
 with open("README.md", "w") as f:
