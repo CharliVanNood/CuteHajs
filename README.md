@@ -5,16 +5,16 @@ Here is all the data we collect:
 | Country | Price Local | Price Euro | Graph |  
 | ------- | ------- | ------- | ------- |  
 Netherlands:|        € 27.99     |(€ 27.99)| ![Graph](graphs/graphNetherlands.png) |  
-Czechia:|              599,–     |(€ 24.35)| ![Graph](graphs/graphCzechia.png) |  
+Czechia:|              599,–     |(€ 23.64)| ![Graph](graphs/graphCzechia.png) |  
 Germany:|            € 27.99     |(€ 27.99)| ![Graph](graphs/graphGermany.png) |  
 Belgium:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphBelgium.png) |  
 France:|             € 24.99     |(€ 24.99)| ![Graph](graphs/graphFrance.png) |  
 Spain:|              € 19.99     |(€ 19.99)| ![Graph](graphs/graphSpain.png) |  
-Poland:|               79.99     |(€ 18.78)| ![Graph](graphs/graphPoland.png) |  
+Poland:|               79.99     |(€ 18.35)| ![Graph](graphs/graphPoland.png) |  
 Italy:|              € 25.00     |(€ 25.00)| ![Graph](graphs/graphItaly.png) |  
-Canada:|             $ 39.99     |(€ 25.01)| ![Graph](graphs/graphCanada.png) |  
-Sweden:|               249       |(€ 22.32)| ![Graph](graphs/graphSweden.png) |  
-Denmark:|              179       |(€ 23.98)| ![Graph](graphs/graphDenmark.png) |  
+Canada:|             $ 39.99     |(€ 26.43)| ![Graph](graphs/graphCanada.png) |  
+Sweden:|               249       |(€ 21.34)| ![Graph](graphs/graphSweden.png) |  
+Denmark:|              179       |(€ 24.0)| ![Graph](graphs/graphDenmark.png) |  
 Slovakia:|           € 19.99     |(€ 19.99)| ![Graph](graphs/graphSlovakia.png) |  
 Austria:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphAustria.png) |  
-Switzerland:|      CHF 29.95     |(€ 32.09)| ![Graph](graphs/graphSwitzerland.png) |  
+Switzerland:|      CHF 29.95     |(€ 31.85)| ![Graph](graphs/graphSwitzerland.png) |  
