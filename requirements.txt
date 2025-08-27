@@ -1,4 +1,4 @@
 matplotlib
-CurrencyConverter==0.18.9
+CurrencyConverter
 requests
 BeautifulSoup
