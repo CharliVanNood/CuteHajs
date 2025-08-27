@@ -18,9 +18,12 @@ mdStart += "Here is all the data we collect:  \n"
 
 stringResult = mdStart + "| Country | Price Local | Price Euro |  \n| ------- | ------- | ------- |  \n"
 for country in country_codes:
-    response = request(f"https://www.ikea.com/{country_codes[country][0]}/p/{country_codes[country][1]}/")
-    (currency, price_full, price_decimal) = getData(response)
-    stringResult += show(country, currency, price_full, price_decimal) + "  \n"
+    try:
+        response = request(f"https://www.ikea.com/{country_codes[country][0]}/p/{country_codes[country][1]}/")
+        (currency, price_full, price_decimal) = getData(response)
+        stringResult += show(country, currency, price_full, price_decimal) + "  \n"
+    except:
+        stringResult += f"An error occurred checking for {country}"
 print(stringResult)
 
 with open("README.md", "w") as f:
