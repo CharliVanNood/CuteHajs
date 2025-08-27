@@ -1,5 +1,6 @@
 from request import request, getData
 from data import show
+from graph import graph
 
 country_codes = {
     "Netherlands": ["nl/nl", 30373588], "Czechia": ["cz/cs", 30373588], "Germany": ["de/de", 30373588], 
@@ -15,13 +16,14 @@ mdStart = "# Hey hey, we track haj prices  \nBelieve it or not, BLÅHAJ pricing 
 mdStart += "So like it's only logical if we tracked them, imagine overpaying for your haj collection!  \n"
 mdStart += "Here is all the data we collect:  \n"
 
-stringResult = mdStart + "| Country | Price Local | Price Euro |  \n| ------- | ------- | ------- |  \n"
+stringResult = mdStart + "| Country | Price Local | Price Euro | Graph |  \n| ------- | ------- | ------- | ------- |  \n"
 for country in country_codes:
     try:
         response = request(f"https://www.ikea.com/{country_codes[country][0]}/p/{country_codes[country][1]}/")
         (currency, price_full, price_decimal) = getData(response)
         (stringResultOut, price) = show(country, currency, price_full, price_decimal)
-        stringResult += stringResultOut + "  \n"
+        stringResult += stringResultOut + f"| ![Graph](graphs/graph{country}.png) |" + "  \n"
+        graph(country)
     except Exception as e:
         print(e)
         stringResult += f"| An error occurred checking for {country} | _ | _ |  \n"

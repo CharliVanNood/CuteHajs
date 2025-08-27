@@ -2,19 +2,19 @@
 Believe it or not, BLÅHAJ pricing is really not as static as it may seem!  
 So like it's only logical if we tracked them, imagine overpaying for your haj collection!  
 Here is all the data we collect:  
-| Country | Price Local | Price Euro |  
-| ------- | ------- | ------- |  
-Netherlands:|        € 27.99     |(€ 27.99)  
-Czechia:|              599,–     |(€ 24.35)  
-Germany:|            € 27.99     |(€ 27.99)  
-Belgium:|            € 24.99     |(€ 24.99)  
-France:|             € 24.99     |(€ 24.99)  
-Spain:|              € 19.99     |(€ 19.99)  
-Poland:|               79.99     |(€ 18.78)  
-Italy:|              € 25.00     |(€ 25.00)  
-Canada:|             $ 39.99     |(€ 25.01)  
-Sweden:|               249       |(€ 22.32)  
-Denmark:|              179       |(€ 23.98)  
-Slovakia:|           € 19.99     |(€ 19.99)  
-Austria:|            € 24.99     |(€ 24.99)  
-Switzerland:|      CHF 29.95     |(€ 32.09)  
+| Country | Price Local | Price Euro | Graph |  
+| ------- | ------- | ------- | ------- |  
+Netherlands:|        € 27.99     |(€ 27.99)| ![Graph](graphs/graphNetherlands.png) |  
+Czechia:|              599,–     |(€ 24.35)| ![Graph](graphs/graphCzechia.png) |  
+Germany:|            € 27.99     |(€ 27.99)| ![Graph](graphs/graphGermany.png) |  
+Belgium:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphBelgium.png) |  
+France:|             € 24.99     |(€ 24.99)| ![Graph](graphs/graphFrance.png) |  
+Spain:|              € 19.99     |(€ 19.99)| ![Graph](graphs/graphSpain.png) |  
+Poland:|               79.99     |(€ 18.78)| ![Graph](graphs/graphPoland.png) |  
+Italy:|              € 25.00     |(€ 25.00)| ![Graph](graphs/graphItaly.png) |  
+Canada:|             $ 39.99     |(€ 25.01)| ![Graph](graphs/graphCanada.png) |  
+Sweden:|               249       |(€ 22.32)| ![Graph](graphs/graphSweden.png) |  
+Denmark:|              179       |(€ 23.98)| ![Graph](graphs/graphDenmark.png) |  
+Slovakia:|           € 19.99     |(€ 19.99)| ![Graph](graphs/graphSlovakia.png) |  
+Austria:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphAustria.png) |  
+Switzerland:|      CHF 29.95     |(€ 32.09)| ![Graph](graphs/graphSwitzerland.png) |  
