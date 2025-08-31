@@ -7,7 +7,8 @@ country_codes = {
     "Belgium": ["be/nl", 30373588], "France": ["fr/fr", 30373588], "Spain": ["es/en", 30373588], 
     "Poland": ["pl/pl", 30373588], "Italy": ["it/it", 30373588], "Canada": ["ca/en", 90373590],
     "Sweden": ["se/en", 30373588], "Denmark": ["dk/da", 30373588], "Slovakia": ["sk/sk", 30373588],
-    "Austria": ["at/en", 30373588], "Switzerland": ["ch/en", 30373588]
+    "Austria": ["at/en", 30373588], "Switzerland": ["ch/en", 30373588], "America": ["us/en", 90373590],
+    "Japan": ["jp/ja", 10373589]
 }
 
 print("Getting Data")
