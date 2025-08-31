@@ -10,6 +10,7 @@ def convertCurrency(price, currency_in, currency_out):
     elif currency_in == "Sweden": currency_in = "SEK"
     elif currency_in == "Denmark": currency_in = "DKK"
     elif currency_in == "Switzerland": currency_in = "CHF"
+    elif currency_in == "America": currency_in = "USD"
     else: return "UNKNOWN"
     return round(converter.convert(price, currency_in, currency_out), 2)
 
