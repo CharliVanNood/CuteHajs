@@ -17,6 +17,6 @@ Sweden:|               249       |(€ 21.34)| ![Graph](graphs/graphSweden.png) 
 Denmark:|              179       |(€ 24.0)| ![Graph](graphs/graphDenmark.png) |  
 Slovakia:|           € 19.99     |(€ 19.99)| ![Graph](graphs/graphSlovakia.png) |  
 Austria:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphAustria.png) |  
-Switzerland:|      CHF 29.95     |(€ 31.85)| ![Graph](graphs/graphSwitzerland.png) |  
+Switzerland:|      CHF 24.95     |(€ 26.54)| ![Graph](graphs/graphSwitzerland.png) |  
 America:|            $ 29.99     |(€ 27.52)| ![Graph](graphs/graphAmerica.png) |  
 | An error occurred checking for Japan | _ | _ |  
