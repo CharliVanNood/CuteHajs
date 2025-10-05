@@ -6,7 +6,7 @@ Here is all the data we collect:
 | ------- | ------- | ------- | ------- |  
 Netherlands:|        € 27.99     |(€ 27.99)| ![Graph](graphs/graphNetherlands.png) |  
 Czechia:|              599,–     |(€ 23.64)| ![Graph](graphs/graphCzechia.png) |  
-| An error occurred checking for Germany | _ | _ |  
+Germany:|            € 27.99     |(€ 27.99)| ![Graph](graphs/graphGermany.png) |  
 Belgium:|            € 24.99     |(€ 24.99)| ![Graph](graphs/graphBelgium.png) |  
 France:|             € 24.99     |(€ 24.99)| ![Graph](graphs/graphFrance.png) |  
 Spain:|              € 19.99     |(€ 19.99)| ![Graph](graphs/graphSpain.png) |  
