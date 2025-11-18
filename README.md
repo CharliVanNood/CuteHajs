@@ -12,7 +12,7 @@ France:|             € 24.99     |(€ 24.99)| ![Graph](graphs/graphFrance.png
 Spain:|              € 19.99     |(€ 19.99)| ![Graph](graphs/graphSpain.png) |  
 Poland:|               79.99     |(€ 18.35)| ![Graph](graphs/graphPoland.png) |  
 Italy:|              € 25.00     |(€ 25.00)| ![Graph](graphs/graphItaly.png) |  
-| An error occurred checking for Canada | _ | _ |  
+Canada:|             $ 39.99     |(€ 26.43)| ![Graph](graphs/graphCanada.png) |  
 Sweden:|               249       |(€ 21.34)| ![Graph](graphs/graphSweden.png) |  
 Denmark:|              179       |(€ 24.0)| ![Graph](graphs/graphDenmark.png) |  
 Slovakia:|           € 19.99     |(€ 19.99)| ![Graph](graphs/graphSlovakia.png) |  
