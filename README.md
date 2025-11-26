@@ -4,18 +4,18 @@ So like it's only logical if we tracked them, imagine overpaying for your haj co
 Here is all the data we collect:  
 | Country | Price Local | Price Euro | Graph |  
 | ------- | ------- | ------- | ------- |  
-Netherlands:|        € 27.99     |(€ 27.99)| ![Graph](graphs/graphNetherlands.png) |  
+| An error occurred checking for Netherlands | _ | _ |  
 | An error occurred checking for Czechia | _ | _ |  
 Germany:|            € 27.99     |(€ 27.99)| ![Graph](graphs/graphGermany.png) |  
 | An error occurred checking for Belgium | _ | _ |  
-France:|             € 24.99     |(€ 24.99)| ![Graph](graphs/graphFrance.png) |  
-Spain:|              € 19.99     |(€ 19.99)| ![Graph](graphs/graphSpain.png) |  
+| An error occurred checking for France | _ | _ |  
+| An error occurred checking for Spain | _ | _ |  
 Poland:|               79.99     |(€ 18.35)| ![Graph](graphs/graphPoland.png) |  
-Italy:|              € 25.00     |(€ 25.00)| ![Graph](graphs/graphItaly.png) |  
-Canada:|             $ 29.99     |(€ 19.82)| ![Graph](graphs/graphCanada.png) |  
-Sweden:|               249       |(€ 21.34)| ![Graph](graphs/graphSweden.png) |  
+| An error occurred checking for Italy | _ | _ |  
+| An error occurred checking for Canada | _ | _ |  
+| An error occurred checking for Sweden | _ | _ |  
 | An error occurred checking for Denmark | _ | _ |  
-Slovakia:|           € 19.99     |(€ 19.99)| ![Graph](graphs/graphSlovakia.png) |  
+| An error occurred checking for Slovakia | _ | _ |  
 | An error occurred checking for Austria | _ | _ |  
 | An error occurred checking for Switzerland | _ | _ |  
 America:|            $ 29.99     |(€ 27.52)| ![Graph](graphs/graphAmerica.png) |  
