@@ -6,7 +6,7 @@ Here is all the data we collect:
 | ------- | ------- | ------- | ------- |  
 | An error occurred checking for Netherlands | _ | _ |  
 | An error occurred checking for Czechia | _ | _ |  
-Germany:|            € 27.99     |(€ 27.99)| ![Graph](graphs/graphGermany.png) |  
+Germany:|            € 22.99     |(€ 22.99)| ![Graph](graphs/graphGermany.png) |  
 | An error occurred checking for Belgium | _ | _ |  
 | An error occurred checking for France | _ | _ |  
 | An error occurred checking for Spain | _ | _ |  
