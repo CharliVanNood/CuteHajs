@@ -18,5 +18,5 @@ Poland:|               79.99     |(€ 18.35)| ![Graph](graphs/graphPoland.png) 
 | An error occurred checking for Slovakia | _ | _ |  
 | An error occurred checking for Austria | _ | _ |  
 | An error occurred checking for Switzerland | _ | _ |  
-America:|            $ 29.99     |(€ 27.52)| ![Graph](graphs/graphAmerica.png) |  
+America:|            $ 23.99     |(€ 22.02)| ![Graph](graphs/graphAmerica.png) |  
 | An error occurred checking for Japan | _ | _ |  
